@@ -194,7 +194,7 @@ address {
 .nav-pills > li.selected > a:hover,
 .nav-pills > li.selected > a:focus {
   color: #ffffff;
-  background-color: #1bbd9b;
+  background-color: #FFA500;
 }
 /*
 * ==========================================================================
@@ -218,7 +218,7 @@ address {
 .nav-pills-centered > .nav-pills > li > a.selected,
 .nav-pills-centered > .nav-pills > li > span.selected {
   color: #ffffff;
-  background-color: #1bbd9b;
+  background-color: #FFA500;
 }
 /*
 * ==========================================================================
@@ -226,7 +226,6 @@ address {
 * ==========================================================================
 */
 .active{
-  background:#74B9B9 !important;
   color: white;
 }
 .navbar {
@@ -370,17 +369,6 @@ p.blog-text{
     margin-left: 21px;
 }
 
-.office-logo {
-  width: 100px;
-}
-
-@media (max-width: 768px){ 
-    .office-logo{
-      height: 100px;
-      width: 60px;
-  }
-}
-
 /*
 * ==========================================================================
 * Feedback Section
@@ -407,7 +395,7 @@ p.blog-text{
   }
 }
 .feedback-section .address-section .address-icon {
-  color: #1bbd9b;
+  color: #FFA500;
   font-size: 48px;
   line-height: 48px;
   margin-bottom: 30px;
@@ -440,7 +428,7 @@ p.blog-text{
   margin-top: 50px;
 }
 .services-section .services-icon {
-  color: #1bbd9b;
+  color: #FFA500;
   margin-bottom: 30px;
 }
 .services-section .services-title {
@@ -464,7 +452,7 @@ p.blog-text{
 .services-icon .fa:hover{
     padding: 0 10px 0 10px;
     color: white;
-    background: #1BBD9B;
+    background: #FFA500;
     border-radius: 3px; 
     transition:.4s;  
 }
