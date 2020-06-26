@@ -45,8 +45,6 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 .container-fluid-kamn {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .container-kamn {
   margin-right: auto;
@@ -243,6 +241,7 @@ address {
   padding: 10px 15px;
   margin: 5px 5px;
   border-radius: 4px;
+  font-size: 20px;
 }
 /*
 * ==========================================================================
@@ -327,7 +326,15 @@ address {
         position: absolute;
         font-size: 37px;
      } 
- }  
+}
+
+.header .image {
+  background: '../assets/img/logo/dongguk-logo.png'
+              no-repeat;
+  width: 65px;
+  height: 65px;
+  border:2px solid green;
+}
 
 .paragraph-text{
     text-align: justify;
@@ -428,7 +435,7 @@ p.blog-text{
   margin-top: 50px;
 }
 .services-section .services-icon {
-  color: #FFA500;
+  color: #303960;
   margin-bottom: 30px;
 }
 .services-section .services-title {
@@ -449,17 +456,11 @@ p.blog-text{
     margin-top: 0;
   }
 }
-.services-icon .fa:hover{
-    padding: 0 10px 0 10px;
-    color: white;
-    background: #FFA500;
-    border-radius: 3px; 
-    transition:.4s;  
-}
+
 .services-group{
   padding: 10px;
-  background:#061F20;
-  color: white;
+  background: #CFD8DC;
+  color: black;
 }
 .service-icon{
   color: white;
@@ -493,7 +494,7 @@ footer{
    margin-top:40px;
    left: 0;
    right: 0;
-   background: black;
+   background: #414a4c;
    bottom: 0px;
 }
 
@@ -504,26 +505,38 @@ footer h3 {
 
 .footer-contact{
     color: white;
+    padding: 30px 0px 30px 0px;
 }
 
 
 /*Social Buttons */
 #social-icons{
-  font-size: 22px;
+  float: right;
+  position: relative;
+  font-size: 48px;
+  padding: 20px;
 }
 
 #social-icons .btn-group {
-    color: #55CBD2;
-    margin-right: 15px;
+  color: #55CBD2;
+  margin-right: 15px;
 }
 #social-icons .btn-group:hover {
-    color: #ffffff;
+  color: #ffffff;
+}
+
+#social-icons .facebook {
+  color: #4267B2;
+}
+
+#social-icons .github {
+  color: #000000;
 }
 
 .copyright {
-    color: #fff;
-    padding: 20px 0px 10px 0px;
-    background-color: rgb(23, 23, 23);
+  color: #fff;
+  padding: 20px 0px 10px 0px;
+  background-color: rgb(23, 23, 23);
 }
 
 /*
