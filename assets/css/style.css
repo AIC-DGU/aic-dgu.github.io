@@ -760,7 +760,7 @@ footer h3 {
   overflow: hidden;
 }
 .profile-prof-card-img {
-  max-width: 100%;
+  width: 216px;
   height: auto;
 }
 
@@ -781,4 +781,24 @@ footer h3 {
 
 .profile-student-info {
   padding-top: 10px;
+}
+
+@media screen and (min-width: 991px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap
+  }
+  #sectionA {
+    order: 1;
+  }
+  #sectionB {
+    order: 2;
+    float: right;
+  }
+}
+
+@media screen and (min-width: 600px)  {
+  .mobile-break { display: none; }
 }
