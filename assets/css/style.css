@@ -150,7 +150,7 @@ body {
 }
 
 a {
-    color: #55CBD2;
+    color: #187bcd;
     text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -435,7 +435,7 @@ p.blog-text{
   margin-top: 50px;
 }
 .services-section .services-icon {
-  color: #303960;
+  color: black;
   margin-bottom: 30px;
 }
 .services-section .services-title {
@@ -459,7 +459,7 @@ p.blog-text{
 
 .services-group{
   padding: 10px;
-  background: #CFD8DC;
+  background: #cadeef;
   color: black;
 }
 .service-icon{
@@ -752,4 +752,33 @@ footer h3 {
   .carousel-caption .carousel-title {
     font-size: 14px;
   }
+}
+
+.profile-prof-card-shape {
+  width: 216px;
+  border-radius: 0%;
+  overflow: hidden;
+}
+.profile-prof-card-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-student-card-shape {
+  width: 172px;
+  height: 172px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-student-card-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-info {
+  padding-left: 50px;
+}
+
+.profile-student-info {
+  padding-top: 10px;
 }
