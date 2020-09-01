@@ -830,6 +830,24 @@ footer h3 {
   padding-top: 10px;
 }
 
+@media screen and (min-width: 500px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap
+  }
+  #sectionA {
+    margin-left: 50px;
+    order: 1;
+  }
+  #sectionB {
+    margin-left: 50px;
+    order: 2;
+    float: right;
+  }
+}
+
 @media screen and (max-width: 500px)  {
   .flex-container {
     display: flex;
@@ -848,6 +866,7 @@ footer h3 {
     float: right;
   }
 }
-@media screen and (min-width: 600px)  {
+
+@media screen and (min-width: 600px) {
   .mobile-break { display: none; }
 }
