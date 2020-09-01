@@ -823,14 +823,14 @@ footer h3 {
 }
 
 .profile-info {
-  padding-left: 50px;
+  padding-left: 0px;
 }
 
 .profile-student-info {
   padding-top: 10px;
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 500px) {
   .flex-container {
     display: flex;
     flex-direction: row;
@@ -838,14 +838,31 @@ footer h3 {
     flex-wrap: wrap
   }
   #sectionA {
+    margin-left: 50px;
     order: 1;
   }
   #sectionB {
+    margin-left: 50px;
     order: 2;
     float: right;
   }
 }
 
-@media screen and (min-width: 600px)  {
-  .mobile-break { display: none; }
+@media screen and (max-width: 500px)  {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap
+  }
+  #sectionA {
+    margin:auto; 
+    order: 1;
+  }
+  #sectionB {
+    margin:auto; 
+    text-align: center;
+    order: 2;
+    float: right;
+  }
 }
