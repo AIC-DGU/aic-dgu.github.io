@@ -15,6 +15,35 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 * Global
 * ==========================================================================
 */
+@font-face {
+  font-family: 'InfinitySans-BoldA1';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InfinitySans-RegularA1';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.inf-sans-bold{
+  font-family: 'InfinitySans-BoldA1';
+}
+
+.inf-sans-reg{
+  font-family: 'InfinitySans-RegularA1';
+}
+
+.profile-name{
+  font-family: 'InfinitySans-BoldA1';
+}
+
+.profile-contact-info{
+  font-family: 'InfinitySans-RegularA1';
+}
 
 .btn-primary{
   margin-left: 20px;
@@ -105,6 +134,7 @@ ul li{
   padding: 0 0 0 1em;
   text-indent: -1.5em;
 }
+
 h3.col-xs-12{
     margin-top: -20px;
 
