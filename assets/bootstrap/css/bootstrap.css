@@ -309,13 +309,16 @@ img {
 }
 .img-responsive,
 .thumbnail > img,
-.thumbnail a > img,
+.thumx a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  height: auto;
+  max-height: 520px;
+  height: 520px;
+  background-size:cover;
+  background-position: center center;
 }
 .img-rounded {
   border-radius: 6px;

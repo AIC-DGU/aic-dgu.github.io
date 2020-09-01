@@ -444,6 +444,7 @@ p.blog-text{
   margin-bottom: 30px;
 }
 .services-section .services-title {
+  font-weight: bold;
   margin-bottom: 15px;
 }
 .services-section .services-desc {
