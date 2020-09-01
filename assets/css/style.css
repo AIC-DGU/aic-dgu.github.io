@@ -94,8 +94,16 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
     
     padding:20px;
 }
+ul {
+  list-style-position: inside;
+  list-style-type: disc;
+  line-height: 1.4em;
+  padding: 0 1em;
+}
 ul li{
-    list-style: none;
+  margin: 0 0 0 1em;
+  padding: 0 0 0 1em;
+  text-indent: -1.5em;
 }
 h3.col-xs-12{
     margin-top: -20px;
