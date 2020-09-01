@@ -147,6 +147,11 @@ body {
     font-size: 15px;
     line-height: 24px;
     background:#F8FAFF;
+    min-height: 100vh;
+    padding-bottom: 250px; 
+    position: relative;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -459,8 +464,9 @@ p.blog-text{
 
 .services-group{
   padding: 10px;
-  background: #cadeef;
+  background: #ffffff;
   color: black;
+  box-shadow: 2px 2px 3px 4px grey;
 }
 .service-icon{
   color: white;
@@ -496,6 +502,8 @@ footer{
    right: 0;
    background: #414a4c;
    bottom: 0px;
+   position: absolute;
+   height: 150px;
 }
 
 footer h3 {

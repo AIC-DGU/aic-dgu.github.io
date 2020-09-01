@@ -22,23 +22,23 @@
 
   <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
     <ul class="nav navbar-nav pull-right">
-      <li class="active">
-        <a href="/">HOME</a>
+      <li class="{% if page.path == 'index.html' %}active{% endif %}">
+        <a href="/index.html">메인화면</a>
       </li>
-      <li>
-        <a href="/people.html">PEOPLE</a>
+      <li class="{% if page.path == 'people.html' %}active{% endif %}">
+        <a href="/people.html">구성원</a>
       </li>
-      <li>
-        <a href="/todo.html">PROJECTS</a>
+      <li class="{% if page.path == 'project.html' %}active{% endif %}">
+        <a href="/project.html">프로젝트</a>
       </li>
-      <li>
-        <a href="/todo.html">PUBLICATION</a>
+      <li class="{% if page.path == 'publication.html' %}active{% endif %}">
+        <a href="/publication.html">논문</a>
       </li>
-      <li>
-        <a href="/todo.html">TEACHING</a>
+      <li class="{% if page.path == 'class.html' %}active{% endif %}">
+        <a href="/class.html">수업</a>
       </li>
-      <li>
-        <a href="/contactus.html"><span>CONTACT US</span></a>
+      <li class="{% if page.path == 'contactus.html' %}active{% endif %}">
+        <a href="/contactus.html"><span>찾아오시는 길</span></a>
       </li>
     </ul>         
   </div>
