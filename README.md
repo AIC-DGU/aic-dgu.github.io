@@ -1,4 +1,4 @@
-# Business Jekyll Theme
+# aic-dgu.github.io
 
 ## How to run
 
