@@ -1,5 +1,34 @@
 # Business Jekyll Theme
 
+## How to run
+
+1. Install `Docker`
+2. Pull the official Docker Jekyll image <i>(once)</i>.
+```bash
+docker pull jekyll/jekyll
+```
+3. Pull the web source code <i>(once)</i>.
+```bash
+git clone https://github.com/AIC-DGU/aic-dgu.github.io
+```
+
+4. Move to the directory
+```bash
+cd aic-dgu.github.io
+```
+
+5. Run the docker jekyll image
+```bash
+docker run -it -v $(pwd):/srv -p 4000:4000 {jekyll image id pulled at the step 2} /bin/bash
+```
+
+6. On the docker container, run the command below
+```bash
+gem install jekyll
+jekyll serve
+```
+
+
 Business Jekyll Theme is a theme that is designed to be used for small and medium business. It is designed by a team from [Technext](https://github.com/technext/). The theme is then ported over by [Melvin Ch'ng](http://melvinchng.github.io) for Jekyll support. The original source code can be obainted from Technext's [repository](https://github.com/technext/office)
 
 Unlike most Jekyll Themes, Business Jekyll Theme is not meant to be a single page theme. This theme is a package that you can use for your business website or promote certain project. I reorganized all the files and make it Jekyll friendly.
