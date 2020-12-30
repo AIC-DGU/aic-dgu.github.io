@@ -2,7 +2,7 @@
 
 ## How to run
 
-1. Install `Docker`
+1. Install `Docker` by following the official [instruction](https://docs.docker.com/get-docker/) per your OS.
 2. Pull the official Docker Jekyll image <i>(once)</i>.
 ```bash
 docker pull jekyll/jekyll
