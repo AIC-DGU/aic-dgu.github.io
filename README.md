@@ -19,9 +19,12 @@ cd aic-dgu.github.io
 
 5. Run the docker jekyll image
 ```bash
-docker run -it -v $(pwd):/srv -p 4000:4000 {jekyll image id pulled at the step 2} /bin/bash
+(Linux) docker run -it -v $(pwd):/srv -p 4000:4000 {jekyll image id pulled at the step 2} /bin/bash
+(Windows10)  docker run -it -v {Absolute Path}:/srv -p 4000:4000 {jekyll image id} /bin/bash
+ On Windows10, Running this code on CMD is recommended.
+  To set up Absolute Path, you may want to go to settings on Docker.
+  
 ```
-
 6. On the docker container, run the command below
 ```bash
 gem install jekyll
