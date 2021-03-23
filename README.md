@@ -25,7 +25,7 @@ cd aic-dgu.github.io
 (Windows10)  docker run -it -v {Absolute Path}:/srv -p 4000:4000 {jekyll image id} /bin/bash
   On Windows10, Running this code on CMD is recommended.
   To set up Absolute Path, you may want to go to settings on Docker.
-  
+  "Absolute Path" means the directory you clone this project
 ```
 6. On the docker container, run the command below
 ```bash
