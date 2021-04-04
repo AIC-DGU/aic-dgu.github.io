@@ -2,6 +2,9 @@
 
 ![Beautiful Jekyll CI](https://github.com/AIC-DGU/aic-dgu.github.io/workflows/Beautiful%20Jekyll%20CI/badge.svg)
 
+Here is our website ! 
+https://aic-dgu.github.io/index.html
+
 ## How to run
 
 1. Install `Docker` by following the official [instruction](https://docs.docker.com/get-docker/) per your OS.
