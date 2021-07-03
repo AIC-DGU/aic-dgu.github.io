@@ -1,5 +1,691 @@
----
-layout: default_style
----
 
-<h1>Currently, Under Construction! </h1>
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>포토갤러리 1 페이지 | 동국대학교 인공지능학과</title>
+<link rel="stylesheet" href="http://aix.dongguk.edu/theme/basic/css/default.css?ver=171222">
+<link rel="stylesheet" href="http://aix.dongguk.edu/skin/board/gallery-lazyload/style.css?ver=171222">
+<!--[if lte IE 8]>
+<script src="http://aix.dongguk.edu/js/html5.js"></script>
+<![endif]-->
+<script>
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('0 6="4://3.1.2";0 7="4://3.1.2/5";0 8="";0 9="";0 e="";0 f="d";0 c="";0 a="b";0 g="";',17,17,'var|dongguk|edu|aix|http|bbs|g5_url|g5_bbs_url|g5_is_member|g5_is_admin|g5_editor|smarteditor2|g5_sca|aid5_3|g5_is_mobile|g5_bo_table|g5_cookie_domain'.split('|'),0,{}))
+</script>
+<script src="http://aix.dongguk.edu/js/jquery-1.8.3.min.js"></script>
+<script src="http://aix.dongguk.edu/js/jquery.menu.js?ver=171222"></script>
+<script src="http://aix.dongguk.edu/js/common.js?ver=171222"></script>
+<script src="http://aix.dongguk.edu/js/wrest.js?ver=171222"></script>
+<script src="http://aix.dongguk.edu/js/placeholders.min.js"></script>
+<link rel="stylesheet" href="http://aix.dongguk.edu/js/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+	<title>동국대학교 인공지능학과</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="/css/global.css">
+	<link rel="stylesheet" type="text/css" href="/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="/css/sub.css">
+	<script src="/css/jquery-1.11.3.min.js"></script>
+	<script src="/css/content.js"></script>
+<script>
+		$(function() {
+			$('ul.tab li').click(function() {
+				var activeTab = $(this).attr('data-tab');
+				$('ul.tab li').removeClass('current');
+				$('.tabcontent').removeClass('current');
+				$(this).addClass('current');
+				$('#' + activeTab).addClass('current');
+			})
+		});
+	</script>
+<script type="text/javascript">
+  $(window).resize(function(){resizeYoutube();});
+  $(function(){resizeYoutube();});
+  function resizeYoutube(){ $("iframe").each(function(){ if( /^https?:\/\/www.youtube.com\/embed\//g.test($(this).attr("src")) ){ $(this).css("width","100%"); $(this).css("height",Math.ceil( parseInt($(this).css("width")) * 480 / 854 ) + "px");} }); }
+</script>
+
+
+	</head>
+	<body style="overflow-y: auto;">
+
+<!-- wrap -->
+<div id="wrap">
+
+	<!-- header -->
+	<div id="header">
+		<div class="navtop_wrap">
+			<div class="inside">
+				<h1 class="logo"><a href="/index.php"><img src="/image/common/logo.png"></a></h1>
+				<div class="gnbs">
+					<ul>
+									<li class="menu">
+									<a href="/aid1_1">학과소개</a>
+									<ul class="depth2">
+									<li><a href="/aid1_1">인사말</a></li>
+									<li><a href="/aid1_2">교수진</a></li>
+									<li><a href="/aid1_3">오시는 길</a></li>
+									</ul>
+									</li>
+
+									<li class="menu">
+									<a href="/aid3_2">교육</a>
+									<ul class="depth2">
+									<li><a href="/aid3_2">교육과정</a></li>
+									<li><a href="/aid3_4">학과규정</a></li>
+									</ul>
+									</li>
+
+									<li class="menu">
+									<a href="/aid4_1?sca=대학ICT연구센터+ITRC">연구</a>
+									<ul class="depth2">
+									<li><a href="/aid4_1?sca=대학ICT연구센터+ITRC">국가연구과제</a></li>
+									<li><a href="/aid4_2">고등지능연구원</a></li>
+									<li><a href="/aid4_3">연구실</a></li>
+									<li><a href="/aid4_4">AI 캠퍼스</a></li>
+									</ul>
+									</li>
+
+									<li class="menu">
+									<a href="https://gs.dongguk.edu/?page_id=18330" target="_blank">입학</a>
+									<ul class="depth2">
+									<li><a href="https://gs.dongguk.edu/?page_id=18330" target="_blank">입학요강</a></li>
+									</ul>
+									</li>
+
+									<li class="menu">
+									<a href="/aid2_1">국내외네트워크</a>
+									<ul class="depth2">
+									<li><a href="/aid2_1">글로벌네트워크</a></li>
+									<li><a href="/aid2_2">협력기관</a></li>
+									</ul>
+									</li>
+
+
+									<li class="menu">
+									<a href="/aid5_1">커뮤니티</a>
+									<ul class="depth2">
+									<li><a href="/aid5_1">공지사항</a></li>
+									<li><a href="/aid5_4">장학</a></li>
+									<li><a href="/aid5_2">자료실</a></li>
+									<li><a href="/aid5_5">취업·기타</a></li>
+									<li><a href="/aid5_3">포토갤러리</a></li>
+									</ul>
+									</li>
+<span style="font-size:13px;line-height:88px;vertical-align:middle;"><!--<span style="font-size:11px;"><a href="http://aix.dongguk.edu/bbs/login.php?url=%2Findex.php">로그인</a></span>--></span>			
+						
+
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		<!--//gnb--><!--response_gnb -->
+		<div class="m_nav">
+			<h1 class="logo"><a href="/"><img src="/image/common/logo_m1.png"></a></h1>
+			<span class="blind">메뉴닫기</span>
+			<div class="btn_menu">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+			<div class="aside" style="right: -100%;">
+				<div class="m_head">
+					<span class="blind">메뉴닫기</span>
+					<div class="btn_close">
+						<div class="line"></div>
+						<div class="line"></div>
+						<div class="line"></div>
+					</div>
+				</div>
+				<div class="m_menu">
+					<ul class="depth1">
+									<li>
+									<a href="#" target="">학과소개</a>
+									<ul class="depth2">
+									<li><a href="/aid1_1">인사말</a></li>
+									<li><a href="/aid1_2">교수진</a></li>
+									<li><a href="/aid1_3">오시는 길</a></li>
+									</ul>
+									</li>
+
+									<li>
+									<a href="#" target="">교육</a>
+									<ul class="depth2">
+									<li><a href="/aid3_2">교육과정</a></li>
+									<li><a href="/aid3_4">학과규정</a></li>
+									</ul>
+									</li>
+
+									<li>
+									<a href="#" target="">연구</a>
+									<ul class="depth2">
+									<li><a href="/aid4_1?sca=대학ICT연구센터+ITRC">국가연구과제</a></li>
+									<li><a href="/aid4_2">고등지능연구원</a></li>
+									<li><a href="/aid4_3">연구실</a></li>
+									<li><a href="/aid4_4">AI 캠퍼스</a></li>
+									</ul>
+									</li>
+
+									<li>
+									<a href="#" target="">입학</a>
+									<ul class="depth2">
+									<li><a href="https://gs.dongguk.edu/?page_id=18330" target="_blank">입학요강</a></li>
+									</ul>
+									</li>
+
+									<li>
+									<a href="#" target="">국내외네트워크</a>
+									<ul class="depth2">
+									<li><a href="/aid2_1">글로벌네트워크</a></li>
+									<li><a href="/aid2_2">협력기관</a></li>
+									</ul>
+									</li>
+
+									
+
+
+
+									<li>
+									<a href="#" target="">커뮤니티</a>
+									<ul class="depth2">
+									<li><a href="/aid5_1">공지사항</a></li>
+									<li><a href="/aid5_4">장학</a></li>
+									<li><a href="/aid5_2">자료실</a></li>
+									<li><a href="/aid5_5">취업·기타</a></li>
+									<li><a href="/aid5_3">포토갤러리</a></li>
+									</ul>
+									</li>
+
+						
+						
+					</ul>
+				</div>
+			</div>
+			<div class="aside_dim" style="display: none;"></div>
+		</div>
+		<!--response_gnb -->		
+		<div class="gnb_dim"></div>
+	</div>
+	<!-- //header -->
+<!-- Page Script -->
+<script type="text/javascript">
+
+</script>
+<!-- // Page Script -->
+
+
+<!-- container -->
+<div id="container1">
+
+	<!-- top_visual -->
+<div class="top_visual">
+	<div class="inner">
+		<h2 class="title"><strong>커뮤니티</strong></h2>
+	</div>
+</div>
+<!-- //top_visual -->
+
+ <!-- contents -->
+	<div id="contents">
+
+<!--		<h3 class="sub_title">포토갤러리</h3>-->
+<div class="content_area">
+		<!--공지사항과 갤러리 -->
+		<div class="section news">
+			<div class="inner">
+			
+
+				<div class="news_wrap7">
+
+					<div class="latest_area">
+						<div class="noticem_list">
+
+<!----------1---------->
+									<!--좌측배너모음-->
+									<div class="s_left_area_menu1">
+<ul>
+				<div class="box">커뮤니티</div>
+
+									 
+									<li><a href="/aid5_1" class="roll">공지사항</a></li>
+									
+									 
+									<li><a href="/aid5_4" class="roll">장학</a></li>
+									
+									 
+									<li><a href="/aid5_2" class="roll">자료실</a></li>
+									
+									 
+									<li><a href="/aid5_5" class="roll">취업·기타</a></li>
+									
+																		<li><a href="/aid5_3" class="on">포토갤러리</a></li>
+																		
+									</ul>
+									</div>
+									<!--//좌측배너모음-->
+								<!--//좌측메뉴영역-->
+<!----------//1---------->
+
+						</div>
+						<div class="boards_list">
+
+									 
+									<div class="title">포토갤러리</div>
+									
+						
+ 
+<!-- 게시판 목록 시작 { -->
+<div id="bo_gall" style="width:100%">
+
+    
+
+    <!-- 게시판 페이지 정보 및 버튼 시작 { -->
+    <div id="bo_btn_top">
+        <div id="bo_list_total">
+            <!--<span>Total 29건</span>
+            1 페이지-->
+        </div>
+
+            </div>
+    <!-- } 게시판 페이지 정보 및 버튼 끝 -->
+
+    <form name="fboardlist"  id="fboardlist" action="http://aix.dongguk.edu/bbs/board_list_update.php" onsubmit="return fboardlist_submit(this);" method="post">
+    <input type="hidden" name="bo_table" value="aid5_3">
+    <input type="hidden" name="sfl" value="">
+    <input type="hidden" name="stx" value="">
+    <input type="hidden" name="spt" value="">
+    <input type="hidden" name="sst" value="wr_num, wr_reply">
+    <input type="hidden" name="sod" value="">
+    <input type="hidden" name="page" value="1">
+    <input type="hidden" name="sw" value="">
+
+    
+    <ul id="gall_ul" class="gall_row">
+                <li class="gall_li col-gn-4">
+            <div class="gall_box">
+                <div class="gall_chk">
+                                <span class="sound_only">
+                    29                </span>
+                </div>
+                <div class="gall_con">
+                    <div class="gall_img">
+                        <a href="http://aix.dongguk.edu/aid5_3/29">
+                        <img src="http://aix.dongguk.edu/data/editor/2105/thumb-bd216fc43101de3832188c494456ea4e_1621320034_0311_202x150.png" alt="" >                        </a>
+                    </div>
+                    <div class="gall_text_href">
+<span style="font-size:13px;"></span>
+                        <a href="http://aix.dongguk.edu/aid5_3/29" class="bo_tit">
+                            5월 14일(금) 해외연사 초청 온리인 세미나
+                         </a>
+<span class="wr4" style="font-size:13px;line-height:17px;"></span>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="gall_li col-gn-4">
+            <div class="gall_box">
+                <div class="gall_chk">
+                                <span class="sound_only">
+                    28                </span>
+                </div>
+                <div class="gall_con">
+                    <div class="gall_img">
+                        <a href="http://aix.dongguk.edu/aid5_3/28">
+                        <img src="http://aix.dongguk.edu/data/editor/2105/thumb-c685a9bd5d41c4ca649b74ae7c3a4dff_1620346964_5809_202x150.png" alt="" >                        </a>
+                    </div>
+                    <div class="gall_text_href">
+<span style="font-size:13px;"></span>
+                        <a href="http://aix.dongguk.edu/aid5_3/28" class="bo_tit">
+                            4월 30일(금) 해외연사 초청 온리인 세미나
+                         </a>
+<span class="wr4" style="font-size:13px;line-height:17px;"></span>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="gall_li col-gn-4">
+            <div class="gall_box">
+                <div class="gall_chk">
+                                <span class="sound_only">
+                    27                </span>
+                </div>
+                <div class="gall_con">
+                    <div class="gall_img">
+                        <a href="http://aix.dongguk.edu/aid5_3/27">
+                        <img src="http://aix.dongguk.edu/data/editor/2105/thumb-c685a9bd5d41c4ca649b74ae7c3a4dff_1620346817_2082_202x150.png" alt="" >                        </a>
+                    </div>
+                    <div class="gall_text_href">
+<span style="font-size:13px;"></span>
+                        <a href="http://aix.dongguk.edu/aid5_3/27" class="bo_tit">
+                            4월 16일(금) 해외연사 초청 온리인 세미나
+                         </a>
+<span class="wr4" style="font-size:13px;line-height:17px;"></span>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="gall_li col-gn-4">
+            <div class="gall_box">
+                <div class="gall_chk">
+                                <span class="sound_only">
+                    26                </span>
+                </div>
+                <div class="gall_con">
+                    <div class="gall_img">
+                        <a href="http://aix.dongguk.edu/aid5_3/26">
+                        <img src="http://aix.dongguk.edu/data/editor/2105/thumb-c685a9bd5d41c4ca649b74ae7c3a4dff_1620346775_5723_202x150.png" alt="" >                        </a>
+                    </div>
+                    <div class="gall_text_href">
+<span style="font-size:13px;"></span>
+                        <a href="http://aix.dongguk.edu/aid5_3/26" class="bo_tit">
+                            4월 9일(금) 해외연사 초청 온리인 세미나
+                         </a>
+<span class="wr4" style="font-size:13px;line-height:17px;"></span>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="gall_li col-gn-4 box_clear">
+            <div class="gall_box">
+                <div class="gall_chk">
+                                <span class="sound_only">
+                    25                </span>
+                </div>
+                <div class="gall_con">
+                    <div class="gall_img">
+                        <a href="http://aix.dongguk.edu/aid5_3/25">
+                        <img src="http://aix.dongguk.edu/data/editor/2105/thumb-c685a9bd5d41c4ca649b74ae7c3a4dff_1620346622_9762_202x150.png" alt="" >                        </a>
+                    </div>
+                    <div class="gall_text_href">
+<span style="font-size:13px;"></span>
+                        <a href="http://aix.dongguk.edu/aid5_3/25" class="bo_tit">
+                            3월 12일(금) 해외연사 초청 온리인 세미나
+                         </a>
+<span class="wr4" style="font-size:13px;line-height:17px;"></span>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="gall_li col-gn-4">
+            <div class="gall_box">
+                <div class="gall_chk">
+                                <span class="sound_only">
+                    24                </span>
+                </div>
+                <div class="gall_con">
+                    <div class="gall_img">
+                        <a href="http://aix.dongguk.edu/aid5_3/24">
+                        <img src="http://aix.dongguk.edu/data/editor/2102/thumb-0bf485ef890027dfcbdb900d2abf3706_1614218985_5819_202x150.png" alt="" >                        </a>
+                    </div>
+                    <div class="gall_text_href">
+<span style="font-size:13px;"></span>
+                        <a href="http://aix.dongguk.edu/aid5_3/24" class="bo_tit">
+                            민·관·학 연결하는 동국대 테스트베드, 지역 주민 건강 케어한다
+                         </a>
+<span class="wr4" style="font-size:13px;line-height:17px;"></span>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="gall_li col-gn-4">
+            <div class="gall_box">
+                <div class="gall_chk">
+                                <span class="sound_only">
+                    23                </span>
+                </div>
+                <div class="gall_con">
+                    <div class="gall_img">
+                        <a href="http://aix.dongguk.edu/aid5_3/23">
+                        <img src="http://aix.dongguk.edu/data/editor/2101/thumb-a15fd2ade6ae1dee8f6a64f6040d04c8_1611799320_6756_202x150.png" alt="" >                        </a>
+                    </div>
+                    <div class="gall_text_href">
+<span style="font-size:13px;"></span>
+                        <a href="http://aix.dongguk.edu/aid5_3/23" class="bo_tit">
+                            [협의회]SW중심대학 인재 소개/동국대 '김상연' 재학생
+                         </a>
+<span class="wr4" style="font-size:13px;line-height:17px;"></span>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="gall_li col-gn-4">
+            <div class="gall_box">
+                <div class="gall_chk">
+                                <span class="sound_only">
+                    22                </span>
+                </div>
+                <div class="gall_con">
+                    <div class="gall_img">
+                        <a href="http://aix.dongguk.edu/aid5_3/22">
+                        <img src="http://aix.dongguk.edu/data/editor/2101/thumb-132779827f542a402c3ad908198c20c7_1610008915_2562_202x150.jpg" alt="" >                        </a>
+                    </div>
+                    <div class="gall_text_href">
+<span style="font-size:13px;"></span>
+                        <a href="http://aix.dongguk.edu/aid5_3/22" class="bo_tit">
+                            한국사회보장정보원, 공공빅데이터 활용 복지분야 ‘창업경진대회’대상 등 8개 팀 선정
+                         </a>
+<span class="wr4" style="font-size:13px;line-height:17px;"></span>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="gall_li col-gn-4 box_clear">
+            <div class="gall_box">
+                <div class="gall_chk">
+                                <span class="sound_only">
+                    21                </span>
+                </div>
+                <div class="gall_con">
+                    <div class="gall_img">
+                        <a href="http://aix.dongguk.edu/aid5_3/21">
+                        <img src="http://aix.dongguk.edu/data/editor/2012/thumb-e3f64a474a0a9a6c9b45b50c7b27b554_1607474082_9032_202x150.png" alt="" >                        </a>
+                    </div>
+                    <div class="gall_text_href">
+<span style="font-size:13px;"></span>
+                        <a href="http://aix.dongguk.edu/aid5_3/21" class="bo_tit">
+                            12월 4일(금) 해외연사 초청 온리인 세미나
+                         </a>
+<span class="wr4" style="font-size:13px;line-height:17px;"></span>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="gall_li col-gn-4">
+            <div class="gall_box">
+                <div class="gall_chk">
+                                <span class="sound_only">
+                    20                </span>
+                </div>
+                <div class="gall_con">
+                    <div class="gall_img">
+                        <a href="http://aix.dongguk.edu/aid5_3/20">
+                        <img src="http://aix.dongguk.edu/data/editor/2012/thumb-4863eb709449763a0cc847bb58c69ac1_1606959141_8962_202x150.png" alt="" >                        </a>
+                    </div>
+                    <div class="gall_text_href">
+<span style="font-size:13px;"></span>
+                        <a href="http://aix.dongguk.edu/aid5_3/20" class="bo_tit">
+                            2020 대학 ICT연구센터 현판증정식
+                         </a>
+<span class="wr4" style="font-size:13px;line-height:17px;"></span>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="gall_li col-gn-4">
+            <div class="gall_box">
+                <div class="gall_chk">
+                                <span class="sound_only">
+                    19                </span>
+                </div>
+                <div class="gall_con">
+                    <div class="gall_img">
+                        <a href="http://aix.dongguk.edu/aid5_3/19">
+                        <img src="http://aix.dongguk.edu/data/editor/2012/thumb-4863eb709449763a0cc847bb58c69ac1_1606959020_2799_202x150.png" alt="" >                        </a>
+                    </div>
+                    <div class="gall_text_href">
+<span style="font-size:13px;"></span>
+                        <a href="http://aix.dongguk.edu/aid5_3/19" class="bo_tit">
+                            2020 대한민국인공지능대상 AI AWARDS
+                         </a>
+<span class="wr4" style="font-size:13px;line-height:17px;"></span>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="gall_li col-gn-4">
+            <div class="gall_box">
+                <div class="gall_chk">
+                                <span class="sound_only">
+                    18                </span>
+                </div>
+                <div class="gall_con">
+                    <div class="gall_img">
+                        <a href="http://aix.dongguk.edu/aid5_3/18">
+                        <img src="http://aix.dongguk.edu/data/editor/2011/thumb-b83235fe067a7ec9b2bb2cf4fc3153b2_1605747525_1806_202x150.jpg" alt="" >                        </a>
+                    </div>
+                    <div class="gall_text_href">
+<span style="font-size:13px;"></span>
+                        <a href="http://aix.dongguk.edu/aid5_3/18" class="bo_tit">
+                            11월 18일(수) 해외연사 초청 온리인 세미나
+                         </a>
+<span class="wr4" style="font-size:13px;line-height:17px;"></span>
+                    </div>
+                </div>
+            </div>
+        </li>
+                    </ul>
+
+         </form>
+     
+       <!-- 게시판 검색 시작 { -->
+    <fieldset id="bo_sch">
+        <legend>게시물 검색</legend>
+
+        <form name="fsearch" method="get">
+        <input type="hidden" name="bo_table" value="aid5_3">
+        <input type="hidden" name="sca" value="">
+        <input type="hidden" name="sop" value="and">
+        <label for="sfl" class="sound_only">검색대상</label>
+        <select name="sfl" id="sfl">
+            <option value="wr_subject">제목</option>
+        </select>
+        <label for="stx" class="sound_only">검색어<strong class="sound_only"> 필수</strong></label>
+        <input type="text" name="stx" value="" required id="stx" class="sch_input" size="25" maxlength="20" placeholder="검색어를 입력해주세요">
+        <input type="submit" value="검색" class="sch_btn">
+        </form>
+    </fieldset>
+    <!-- } 게시판 검색 끝 -->   
+</div>
+
+
+
+
+<!-- 페이지 -->
+<nav class="pg_wrap"><span class="pg"><span class="sound_only">열린</span><strong class="pg_current">1</strong><span class="sound_only">페이지</span>
+<a href="http://aix.dongguk.edu/aid5_3/p2" class="pg_page">2<span class="sound_only">페이지</span></a>
+<a href="http://aix.dongguk.edu/aid5_3/p3" class="pg_page">3<span class="sound_only">페이지</span></a>
+<a href="http://aix.dongguk.edu/aid5_3/p3" class="pg_page pg_end">맨끝</a>
+</span></nav><!-- } 게시판 목록 끝 -->
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- //공지사항과 갤러리 -->
+</div>
+	</div>
+	<!-- //contents -->
+
+</div>
+<!-- //container -->
+
+
+	<!-- footer -->
+	<div id="footer9">
+		<!-- foot_top -->
+		<div class="foot_top">
+			<div class="inner">
+
+				<div class="select_area">
+					<div class="select_box">
+						<a href="javascript:void(0)" class="btn_select"><span>관련기관</span></a>
+						<ul style="display: none;">
+							<li><a href="http://www.dongguk.edu" target="_blank" title="새창으로 바로가기">동국대학교</a></li>
+							<li><a href="http://gs.dongguk.edu" target="_blank" title="새창으로 바로가기">동국대학교 대학원</a></li>
+							<li><a href="https://itcec.dongguk.edu/index.php" target="_blank">융합교육원</a></li>
+							<li><a href="http://engineer.dongguk.edu" target="_blank">공과대학</a></li>
+							<li><a href="http://cse.dongguk.edu" target="_blank">컴퓨터공학과</a></li>
+							<li><a href="https://ice.dongguk.edu" target="_blank">정보통신공학과</a></li>
+							<li><a href="https://itcec.dongguk.edu" target="_blank">IT융합교육센터</a></li>
+						</ul>
+					</div>
+					
+				</div>
+
+				<div class="link_area">
+					<ul>
+						<li><a href="https://portal.dongguk.edu/wps/download/Securityguide.pdf" target="_blank">개인정보처리방침</a></li>
+						<li><a href="http://www.dongguk.edu/mbs/kr/jsp/board/list.jsp?boardId=840336&id=kr_110000000000" target="_blank">개인정보 목적외 이용·제공대장</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<!-- //foot_top -->
+		<!-- foot_btm -->
+		<div class="foot_btm">
+			<div class="inner">
+				<div class="foot_logo"><a href="http://www.dongguk.edu" target="_blank"><img src="/css/foot_logo.png"></a></div>
+				<div class="foot_txt">
+					<p class="address">
+04620 서울시 중구 필동로 1길 30 동국대학교 신공학관 10152호 전화: 02-2290-1442<br>
+						Copyright(c) 2016 DONGGUK UNIVERSITY. ALL RIGHTS RESERVED.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- //foot_btm -->
+
+</div>
+<a id="btntop" href="#"><i class="fa fa-angle-up"></i></a>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.display = "none";
+}
+</script>
+<!-- //wrap -->
+</body></html>
+<!-- 사용스킨 : gallery-lazyload -->
+
+
+<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+<!--[if lte IE 7]>
+<script>
+$(function() {
+    var $sv_use = $(".sv_use");
+    var count = $sv_use.length;
+
+    $sv_use.each(function() {
+        $(this).css("z-index", count);
+        $(this).css("position", "relative");
+        count = count - 1;
+    });
+});
+</script>
+<![endif]-->
+
+</body>
+</html>
