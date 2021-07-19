@@ -1,1 +1,21 @@
-{% include image-gallery.html folder="/assets/img/seminar" %}
+---
+layout: default
+<!-- images:
+    -images_path:/assets/img/seminar/0514Seminar.png
+     title: 0514 Seminar
+    -images_path:/assets/img/seminar/0430Seminar.png
+     title: 0430 Seminar
+    -images_path:/assets/img/seminar/0416Seminar.png
+     title: 0416 Seminar
+    -images_path:/assets/img/seminar/0409Seminar.png
+     title: 0409 Seminar -->
+---
+{% assign sorted_photos = site.gallery | sort: "weight" %}
+
+<ul class="gallery">
+    {% for image in site.gallery %}
+    <li>
+        <img src="{{ image.image_path}}" alt="{{image.title}}">
+    </li>
+    {% endfor %}
+</ul>
